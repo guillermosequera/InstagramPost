@@ -1,35 +1,35 @@
 body{
-    background: #000;
-}
-.container{
+    background: #000;                   /*Background de la pagina color negro para resaltar el Post*/
+}               
+.container{                               /*un cuadro donde se encierran todos los elementos del post, con Background color blanco para contrastar con la pagina*/
     background: #fff;
     width: 400px;
     height: 500px;
     margin-left: 35%;
     margin-top: 5%;
 }
-.log{
+.log{                                       /*logo de html5 alineado en bloque para que sea facil de manipular con las propiedades margin, position, entre otras*/
     display: inline-block;
     position: absolute;
     margin-top: 12px;
     font-size: x-large;
     margin-left: 15px;
 }
-.subtitle{
+.subtitle{                                  /*texto que simboliza el nombre de usuario en Instagram que recibe las mismas propiedades del logo html5*/
     display: inline-block;
     position: absolute;
     margin-left: 40px;
     margin-top: 10px;
     font-size: smaller;
 }
-.cursive{
+.cursive{                                   /*texto que representa la ubicacion de tu post manteniendo las mismas propiedades de los elementos anteriores .log y .subtitle*/
     display: inline-block;
     position: absolute;
     margin-left: 40px;
     margin-top: 10px;
     font-size: smaller;
 }
-#Tree {
+#Tree {                                     /*los tres puntos verticales del menu del post se ubicaron a la derecha del post con la propiedad "float" y se mantuvo el resto de propiedades de los elementos anteriores .log, .subtitle y  .cursive*/
     display: inline-block;
     position: relative;
     float: right;
@@ -37,36 +37,36 @@ body{
     bottom: -15px;
     font-size: large;
 }
-.img {
+.img {                                      /*la imagen de nuestro post fue sencilla de ubicar utilizando la propiedad de posicion con el atributo "relative" y agregandole un espacio del final del cuadro para ubicarlo en la posicion exacta*/
     position: relative;
     bottom: -30px;
 }
-.option{
+.option{                                       /*cuadro que encierra los iconos de "megusta", "comentar", "enviarpost" y "agregar a favorito" para que se comporten de manera simetrica en la disposicion del espacio"*/
     position: absolute;
     bottom: 210px;
     margin-left: 6px;
     font-size: large;
 
 }
-.liked{
+.liked{                                         /*icono de me gusta, alineado en bloque y con posicion relativa para mantenerse el espacio adecuado con los demas elementos del bloque*/
     display: inline-block;
     position: relative;
     
 }
-.comment{
+.comment{                                   /*icono de cometar, alineado en bloque y con posicion relativa para mantenerse el espacio adecuado con los demas elementos del bloque*/
     display: inline-block;
     position: relative;
 }
-.papper{
+.papper{                                    /*icono de enviar post de forma privada, alineado en bloque y con posicion relativa para mantenerse el espacio adecuado con los demas elementos del bloque*/
     display: inline-block;
     position: relative;
 }
-.bookmark{
+.bookmark{                                  /*icono de guardar como post favorito, alineado en bloque y con posicion relativa para mantenerse el espacio adecuado con los demas elementos del bloque*/
     display: inline-block;
     position: relative;
     margin-left: 299px;
 }
-.feed{
+.feed{                                      /*bloque que guarda el texto que describe el post y muestras los usuarios que han indicado que le gusta*/
     font-size: smaller;
     margin-top: 71px;
     margin-left: 4px;
